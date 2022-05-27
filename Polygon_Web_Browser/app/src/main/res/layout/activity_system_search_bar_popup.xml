@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".System_SearchBar_Popup_Activity"
+    android:layout_margin="8dp"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageButton
+            android:id="@+id/searchImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/search_vector_asset"
+            app:layout_constraintEnd_toStartOf="@id/searchView"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"/>
+        <EditText
+            android:id="@+id/searchView"
+            android:paddingStart="15dp"
+            android:paddingEnd="0dp"
+            android:hint="@string/search_something"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintStart_toEndOf="@id/searchImage"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/forwardImage"
+            />
+        <ImageButton
+            android:id="@+id/forwardImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/searchbar_forward_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/searchView"
+            android:background="@color/white"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

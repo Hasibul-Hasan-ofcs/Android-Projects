@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Polygon</string>
+    <string name="build_version">V1.0.0</string>
+    <string name="main_splash_logo_name">POLYGON</string>
+    <string name="prepared_by">by HHR ▲</string>
+    <string name="dive_note">DIVE INTO THE WEB</string>
+    <string name="next_button">next</string>
+    <string name="skip_button">skip</string>
+    <string name="log_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="hello">hello</string>
+    <string name="choose_image">choose an user image</string>
+    <string name="plus">+</string>
+    <string name="one">1</string>
+    <string name="search">Search here</string>
+    <string name="webVisit">Popular websites</string>
+    <string name="settings">settings</string>
+    <string name="google">google</string>
+    <string name="facebook">facebook</string>
+    <string name="twitter">twitter</string>
+    <string name="skype">skype</string>
+    <string name="whatsapp">whatsapp</string>
+    <string name="gmail">gmail</string>
+    <string name="youtube">youtube</string>
+    <string name="aliexpress">ali express</string>
+    <string name="wikipedia">wikipedia</string>
+    <string name="animekisa">animekisa</string>
+    <string name="crickbuzz">crickbuzz</string>
+    <string name="hotstar">hotstar</string>
+    <string name="googleplay">google play</string>
+    <string name="addmore">add more</string>
+    <string name="vpn">vpn</string>
+    <string name="today">Today</string>
+    <string name="quit">Are you sure you want to quit?</string>
+    <string name="cancel">cancel</string>
+    <string name="yes">yes</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="previous">Previous</string>
+    <string name="greetings">Greetings</string>
+    <string name="to_the_polygon_family">To The Family of Polygon</string>
+    <string name="lets">Let\'s</string>
+    <string name="get_started">Get Started</string>
+    <string name="dive">Dive Deeper Into The Web</string>
+    <string name="bookmarks">bookmarks</string>
+    <string name="themes">themes</string>
+    <string name="downloads">downloads</string>
+    <string name="incognito">incognito</string>
+    <string name="history">history</string>
+    <string name="share">share</string>
+    <string name="search_something">search something</string>
+    <string name="about">about</string>
+    <string name="re_type_password">re-type password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="not_signed_up">Not Signed up yet!</string>
+    <string name="sign_up_here">sign up</string>
+    <string name="skip_now">skip for now</string>
+    <string name="first_name">first name</string>
+    <string name="last_name">last name</string>
+    <string name="email">email</string>
+    <string name="home">Home</string>
+    <string name="tabs">Tabs</string>
+    <string name="reload">Reload</string>
+    <string name="backward">Backward</string>
+    <string name="forward">Forward</string>
+    <string name="have_ac">Already have an account?</string>
+    <string name="ask_login">Would you consider logging in? So that we can help you being with the updates and enjoy exclusive features.</string>
+    <string name="search_management">Search Management</string>
+
+    <!--    String Arrays-->
+    <string-array name="settings_array">
+        <item>Search Management</item>
+        <item>Browsing Management</item>
+        <item>Download Management</item>
+        <item>Notification Management</item>
+        <item>Account Management</item>
+        <item>Language settings</item>
+        <item>Set Priority</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

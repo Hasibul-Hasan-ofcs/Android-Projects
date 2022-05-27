@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welcome_Activity"
+    android:background="@color/deep_blue_02"
+    >
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        >-->
+
+<!--        <VideoView-->
+<!--            android:id="@+id/videoBackgroundView"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_gravity="center"-->
+
+<!--            />-->
+
+<!--    </RelativeLayout>-->
+
+    <RelativeLayout
+        android:id="@+id/logoHolderTop"
+        android:layout_width="0dp"
+        android:layout_height="98dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/fragmentWelcomeID"
+        android:gravity="center"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/logoHolderLayout"
+                android:transitionName="mainLogoAnimationTransition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.45">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/lottiePolygonMainLogo"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:lottie_autoPlay="true"
+                    app:lottie_rawRes="@raw/polygon_main"
+                    app:lottie_speed="2.2" />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/lottieThunderBoltSplash_02"
+                    android:transitionName="thunderBoltName"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleY="0.8"
+                    android:scaleX="1.0"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:lottie_autoPlay="true"
+                    app:lottie_speed="20" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <TextView
+                android:id="@+id/mainLogoName"
+                android:transitionName="mainLogoNameTransition"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/main_splash_logo_name"
+                android:textAlignment="center"
+                android:textColor="@color/orange_01"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toStartOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:gravity="center"
+
+                />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <fragment
+        android:id="@+id/fragmentWelcomeID"
+        android:name="com.example.polygon.welcome_welcome_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="100dp"
+        app:layout_constraintTop_toBottomOf="@+id/logoHolderTop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/logoHolderBottom"
+        android:background="@color/transparent"
+        >
+
+    </fragment>
+
+    <RelativeLayout
+        android:id="@+id/logoHolderBottom"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragmentWelcomeID"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        >
+        <!--        android:background="@drawable/welcome_background_01"-->
+
+        <Button
+            android:id="@+id/skipButtonId"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:backgroundTint="@color/transparent"
+            android:paddingStart="30dp"
+            android:paddingEnd="20dp"
+            android:text="@string/skip_button"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/nextButtonId"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:backgroundTint="@color/transparent"
+            android:paddingStart="20dp"
+            android:paddingEnd="30dp"
+            android:text="@string/next_button"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <Button
+                android:id="@+id/getStartedButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:visibility="gone"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/get_started"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

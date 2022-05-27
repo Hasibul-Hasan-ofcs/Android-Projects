@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.240625" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable-v24/round_background_popup_window_black.xml" value="0.23692307692307693" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable-v24/round_background_popup_window_black_03.xml" value="0.240625" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable-v24/round_background_popup_window_white_03.xml" value="0.23692307692307693" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable/blur_background.xml" value="0.18333333333333332" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable/float_button_hamburger_vector_asset.xml" value="0.23692307692307693" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable/floating_button_border.xml" value="0.23692307692307693" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable/history_button_customized_background_01.xml" value="0.20833333333333334" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable/ic_baseline_check_box_outline_blank_24.xml" value="0.240625" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.240625" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable/ic_launcher_background.xml" value="0.240625" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable/only_stroke_background_white.xml" value="0.20833333333333334" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable/orange_solid_border.xml" value="0.2111111111111111" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable/outline_color_shape_drawable.xml" value="0.23692307692307693" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable/reload_icon_01.xml" value="0.23692307692307693" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable/round_2sides_background_white_02.xml" value="0.240625" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable/round_background.xml" value="0.23692307692307693" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable/round_background_green_01.xml" value="0.240625" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable/round_background_popup_window.xml" value="0.22592592592592592" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable/round_background_popup_window_black.xml" value="0.22" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable/round_background_popup_window_black_02.xml" value="0.2" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable/round_background_popup_window_black_03.xml" value="0.21481481481481482" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable/round_background_popup_window_white.xml" value="0.240625" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable/round_background_popup_window_white_02.xml" value="0.23692307692307693" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable/round_background_popup_window_white_03.xml" value="0.23692307692307693" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable/round_background_power_button_color.xml" value="0.240625" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable/searchbar_shadow.xml" value="0.240625" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable/splash_background.xml" value="0.2351851851851852" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable/tab_box_icon_01.xml" value="0.240625" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable/welcome_background.xml" value="0.22962962962962963" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/drawable/welcome_background_01.xml" value="0.22962962962962963" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/layout/activity_ask_exit_popup.xml" value="0.22447916666666667" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/layout/activity_ask_log_in.xml" value="0.22447916666666667" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/layout/activity_blur_background_maker.xml" value="0.22447916666666667" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/layout/activity_bookmarks.xml" value="0.25" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/layout/activity_browser_main.xml" value="0.22" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/layout/activity_history.xml" value="0.22447916666666667" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/layout/activity_pre_browser_main.xml" value="0.22" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/layout/activity_settings.xml" value="0.21" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/layout/activity_system_popup.xml" value="0.22447916666666667" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/layout/activity_system_search_bar_popup.xml" value="0.22447916666666667" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/layout/activity_welcome.xml" value="0.22447916666666667" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/layout/bookmarks_sample_layout.xml" value="0.22447916666666667" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/layout/fragment_previous__history_.xml" value="0.22447916666666667" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/layout/fragment_today_history_fragment.xml" value="0.22" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/layout/fragment_welcome_dive_deeper_fragment.xml" value="0.22447916666666667" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/layout/fragment_welcome_welcome_fragment.xml" value="0.22447916666666667" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/layout/fragment_yesterday__history_fragment.xml" value="0.22447916666666667" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/layout/history_child_sample_layout.xml" value="0.22447916666666667" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/layout/history_group_sample_layout.xml" value="0.22447916666666667" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/layout/history_sample_layout.xml" value="0.22447916666666667" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/layout/settings_sample_layout.xml" value="0.22447916666666667" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/layout/system_control_popup.xml" value="0.22" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/layout/test_popup.xml" value="0.22447916666666667" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/layout/welcome_login.xml" value="0.22" />
+        <entry key="..\:/Cyborg_Files/Polygon_Web_Browser/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

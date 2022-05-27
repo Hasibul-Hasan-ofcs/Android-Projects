@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".welcome_dive_deeper_fragment"
+        >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <VideoView
+            android:id="@+id/videoBackgroundViewDD"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+
+            />
+
+    </RelativeLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageFragDD"
+                android:src="@drawable/deep_dive"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/welcomeLargeDD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lets"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:fontFamily="monospace"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageFragDD" />
+
+            <TextView
+                android:id="@+id/toLargeDD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dive"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:fontFamily="monospace"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/welcomeLargeDD" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

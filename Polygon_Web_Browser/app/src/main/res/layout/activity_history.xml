@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".History_Activity"
+    android:background="@drawable/welcome_background_01">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageButton
+                android:id="@+id/exitButtonHistoryActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/icon_exit_white_50px"
+                android:background="@color/transparent"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/history"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:paddingStart="5dp"
+                android:paddingEnd="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                />
+        </LinearLayout>
+
+<!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            >-->
+<!--            <View-->
+<!--                android:id="@+id/divider01"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="2dp"-->
+<!--                android:background="@color/white"-->
+<!--                android:layout_marginStart="10dp"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintEnd_toStartOf="@+id/tempImageId"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                />-->
+
+<!--            <View-->
+<!--                android:id="@+id/tempImageId"-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintStart_toEndOf="@id/divider01"-->
+<!--                app:layout_constraintEnd_toStartOf="@id/divider02"-->
+<!--                />-->
+
+<!--            <View-->
+<!--                android:id="@+id/divider02"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="2dp"-->
+<!--                android:background="@color/white"-->
+<!--                android:layout_marginEnd="10dp"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toEndOf="@+id/tempImageId"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                />-->
+<!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                >
+                <Button
+                    android:id="@+id/todayHistoryButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/today"
+                    android:background="@drawable/history_button_customized_background_01"
+                    android:layout_marginStart="10dp"
+                    style="?android:attr/borderlessButtonStyle"
+                    /><Button
+                    android:id="@+id/yesterdayHistoryButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/yesterday"
+                    android:backgroundTint="@color/transparent"
+                    style="?android:attr/borderlessButtonStyle"
+                    /><Button
+                    android:id="@+id/previousHistoryButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/previous"
+                    android:backgroundTint="@color/transparent"
+                    style="?android:attr/borderlessButtonStyle"
+                    />
+            </LinearLayout>
+            <fragment
+                android:id="@+id/historyActivityFragmentID01"
+                android:name="com.example.polygon.Today_history_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent">
+
+            </fragment>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

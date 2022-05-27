@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.polygon">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/polygon_logo_02"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/polygon_logo_02"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Polygon">
+        <activity
+            android:name=".Ask_exit_popup_activity"
+            android:exported="false" />
+        <activity
+            android:name=".System_SearchBar_Popup_Activity"
+            android:exported="false"
+            android:theme="@style/popupStyle" />
+        <activity
+            android:name=".Bookmarks_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Settings_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".History_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Pre_Browser_Main"
+            android:exported="true" />
+        <activity
+            android:name=".System_Popup_Activity"
+            android:exported="true"
+            android:theme="@style/popupStyle" />
+        <activity
+            android:name=".BrowserMainActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Welcome_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

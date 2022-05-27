@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/browserMainLayoutID"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BrowserMainActivity">
+
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/floatingActionButton_01"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:backgroundTint="@color/deep_color_03"-->
+<!--        android:background="@drawable/floating_button_border"-->
+<!--        app:tint="@color/white"-->
+<!--        android:clickable="true"-->
+<!--        android:focusable="true"-->
+<!--        app:rippleColor="@color/deep_color_03"-->
+<!--        app:borderWidth="0dp"-->
+<!--        app:fabCustomSize="65dp"-->
+<!--        app:pressedTranslationZ="12dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:srcCompat="@drawable/app_logo" />-->
+<!--    android:layout_x="335dp"-->
+<!--    android:layout_y="571dp"-->
+
+
+
+
+    <LinearLayout
+        android:id="@+id/topNavLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/webViewMain"
+        android:orientation="vertical"
+        android:background="@drawable/outline_color_shape_drawable"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/only_stroke_background_white"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center">
+
+        <LinearLayout
+            android:id="@+id/navBackwardLayout"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+            <ImageButton
+                android:id="@+id/navBackward"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:src="@drawable/nav_icon_backward_white_50px"
+                android:backgroundTint="@color/transparent"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="25dp"
+                    android:background="@color/white"
+                    android:layout_gravity="center"
+                    />
+
+        <LinearLayout
+            android:id="@+id/navForwardLayout"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+            <ImageButton
+                android:id="@+id/navForward"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/transparent"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:src="@drawable/nav_icon_forward_white_50px"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                />
+
+        </LinearLayout>
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            android:orientation="horizontal"
+            android:background="@drawable/round_background_popup_window_white"
+            >
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+<!--            <androidx.cardview.widget.CardView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                >-->
+
+<!--                <androidx.appcompat.widget.SearchView-->
+<!--                    android:id="@+id/searchView01"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="40dp"-->
+<!--                    android:background="@color/white"-->
+<!--                    android:backgroundTint="@color/white"-->
+<!--                    app:searchIcon="@null"-->
+<!--                    app:iconifiedByDefault="false"-->
+<!--                    android:focusable="true"-->
+<!--                    android:focusableInTouchMode="true"-->
+<!--                    />-->
+<!--                android:focusedByDefault="false"-->
+
+<!--            </androidx.cardview.widget.CardView>-->
+                <Button
+                    android:id="@+id/searchViewButton01"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/black"
+                    android:gravity="start"
+                    style="?android:attr/borderlessButtonStyle"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/separator02"
+                    />
+
+            <View
+                android:id="@+id/separator02"
+                android:layout_width="1dp"
+                android:layout_height="25dp"
+                android:background="@color/deep_color_03"
+                android:layout_gravity="center"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/searchViewButton01"
+                app:layout_constraintEnd_toStartOf="@id/navBookmark"
+                />
+
+            <ImageButton
+                android:id="@+id/navBookmark"
+                android:layout_gravity="center"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/transparent"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:src="@drawable/icon_bookmark_black_02_50px"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/separator02"
+                />
+
+
+<!--                    android:searchIcon="@drawable/ic_search"-->
+<!--                    android:commitIcon="@drawable/ic_commit"-->
+<!--                    android:searchHintIcon="@drawable/ic_search"-->
+<!--                    android:closeIcon="@drawable/ic_close"-->
+<!--                    android:goIcon="@drawable/ic_go"-->
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+        </LinearLayout>
+        <ProgressBar
+            android:id="@+id/progressForWebLoad"
+            android:layout_width="match_parent"
+            android:layout_height="2.5dp"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:progressBackgroundTint="@color/transparent"
+            android:progressTint="@color/orange_01"
+            />
+
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/webViewMain"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topNavLayout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+    </WebView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/floatingButtonHolder"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_background_popup_window_black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/float_button_hamburger_vector_asset"
+            android:background="@drawable/round_background_popup_window_black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+        <Button
+            android:id="@+id/floatingActionButton_01"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/transparent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/shiftButton01Holder"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:visibility="invisible"
+        android:background="@color/deep_color_03"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon_shift_white_50px"
+            android:background="@drawable/icon_shift_white_50px"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+        <Button
+            android:id="@+id/shiftButton01"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:backgroundTint="@color/transparent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

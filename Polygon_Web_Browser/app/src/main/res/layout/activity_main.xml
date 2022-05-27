@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+<!--    <com.airbnb.lottie.LottieAnimationView-->
+<!--        android:id="@+id/loadingSplashSettingsLogo"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginStart="25dp"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:lottie_autoPlay="true"-->
+<!--        app:lottie_rawRes="@raw/splash_settings"-->
+<!--        app:lottie_repeatCount="10" />-->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:padding="10dp"
+        android:text="@string/build_version"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/logoHolderLayout"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottiePolygonMainLogo"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:transitionName="mainLogoAnimationTransition"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_rawRes="@raw/polygon_main"
+            app:lottie_speed="2.2"
+            app:layout_constraintVertical_bias="0.45"
+            />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieThunderBoltSplash_02"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:scaleY="0.8"
+            android:scaleX="1.0"
+            android:transitionName="thunderBoltName"
+            app:layout_constraintBottom_toBottomOf="@+id/lottiePolygonMainLogo"
+            app:layout_constraintEnd_toEndOf="@+id/lottiePolygonMainLogo"
+            app:layout_constraintStart_toStartOf="@+id/lottiePolygonMainLogo"
+            app:layout_constraintTop_toTopOf="@+id/lottiePolygonMainLogo"
+            app:lottie_autoPlay="true"
+            app:lottie_speed="15" />
+
+            <TextView
+            android:id="@+id/mainLogoName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_splash_logo_name"
+            android:textAlignment="center"
+            android:textColor="@color/orange_01"
+            android:textSize="60sp"
+            android:transitionName="mainLogoNameTransition"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.98"
+
+            />
+
+        <TextView
+            android:id="@+id/diveNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:letterSpacing="0.5"
+            android:text="@string/dive_note"
+            android:textColor="@color/transparent"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/mainLogoName" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
